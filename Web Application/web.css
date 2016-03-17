@@ -1,0 +1,122 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	width: 915px;
+	height: 110px;
+	margin: 0 auto;
+}
+h1{
+	width: 262px;
+	height: 110px;
+	float: left;
+	text-align: center;
+	line-height: 110px;
+	font-family: arial;
+	font-size: 33px;
+	color: #a02900;
+}
+nav{
+	width: 653px;
+	height: 110px;
+	float: left;
+}
+
+
+nav li{
+	list-style: none;
+	float: left;
+	margin-left: 45px;
+	
+	font-family: arial;
+	line-height: 110px;
+}
+nav li.first{
+	margin-left: 176px;
+}
+nav li a{
+	text-decoration: none;
+	color: #000;
+}
+nav li a:hover{
+	color: #a02900;
+	border-bottom:1px solid #a02900;
+}
+.banner{
+	height: 273px;
+	background-image: url(images/b-bg_14.png);
+}
+.banner-in{
+	width: 915px;
+	height: 273px;
+	margin: 0 auto;
+	border-bottom:1px solid #ccc;
+}
+.banner-l{
+	width: 513px;
+	height: 273px;
+	float: left;
+}
+h2{
+	font-size: 23px;
+	font-family: arial;
+	font-style: italic;
+	color: #ebf1b1;
+	padding-top: 41px;
+}
+.banner p{
+	width: 478px;
+	margin-top: 28px;
+	color: #fff;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.banner-r{
+	width: 402px;
+	height: 273px;
+	float: left;
+	position: relative;
+}
+.banner-r img{
+	position: absolute;
+	top:-11px;
+}
+.main{
+	width: 915px;
+	height: 306px;
+	margin: 0 auto;
+	border-bottom:1px solid #ccc;
+}
+.main div{
+	width: 275px;
+	height: 306px;
+	float: left;
+	margin-right: 30px;
+}
+h3{
+	width: 274px;
+	height: 21px;
+	border-bottom:1px solid #ccc;
+	margin-top: 36px;
+}
+.main span{
+	color: #762c23;
+}
+.main p{
+	margin-top: 21px;
+	color: #000;
+}
+footer{
+	width: 915px;
+	height: 75px;
+	margin: 0 auto;
+	font-family: arial;
+}
+footer .l{
+	line-height: 75px;
+	float: left;
+}
+footer .r{
+	line-height: 75px;
+	float: right;
+}

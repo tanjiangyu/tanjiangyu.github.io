@@ -1,0 +1,91 @@
+*{margin: 0;padding: 0;}
+a{text-decoration: none;
+	color:#000;
+}
+ul{list-style: none;}
+header{width: 930px;height: 482px;
+	margin: 0 auto;
+}
+.top{height: 102px;}
+.logo{float: left;}
+nav{float: left;
+	width: 501px;
+}
+nav li{float: left;
+	padding-left: 32px;padding-top: 50px;
+	font-family: arial;
+	list-style: none;
+}
+
+nav li a:hover{color: #f00;}
+
+.search{
+	width: 319px;
+	height: 102px;
+	float: left;
+}
+
+.search p.a{display: block;
+	/*width:100px;*/
+	font-family: arial;
+	font-size: 10px;
+	padding-top: 7px;
+}
+.search p.a a{color: #234e71;}
+.search input{/*width: 199px;height: 23px;*/
+	border:1px solid #ccc;
+	float: right;
+}
+.search button{padding-right: 1px;}
+.search p.b{float: right;
+	font-family: arial;
+}
+
+.main{width: 930px;height: 575px;
+	margin:0 auto;
+}
+.main div ul li{
+list-style-image: url(../images/sanjiao_08.jpg);
+list-style-position: inside;
+/*padding-left: 41px;*/
+}
+
+h3{margin-left: 21px;}
+.main div.a{width: 302px;height: 285px;
+	border:1px solid #ccc;
+	margin-top: 23px;
+	float: left;
+	font-size: 14px;
+}
+.main div.b{width: 302px;height: 285px;
+	border:1px solid #ccc;
+	margin-top: 23px;
+	float: left;
+	margin-left: 9px;
+	font-size: 14px;
+}
+.main div.c{width: 302px;height: 285px;
+	border:1px solid #ccc;
+	margin-top: 23px;
+	float: left;
+	margin-left: 9px;
+	font-size: 14px;
+}
+.maincenter img.l{padding-left: 3px;padding-top: 18px;}
+.maincenter img.c{margin-left: 5px;padding-top: 13px;}
+.maincenter img.r{padding-right: 6px;padding-top: 15px;
+	float: right;
+}
+.mainbottom{width: 930px;height: 222px;
+	border:1px solid #ccc;
+	background-color: #f1f1f1;
+	font-family: arial;
+	font-size: 10px;
+}
+.mainbottom div{
+	width: 186px;height: 197px;
+	padding-top: 24px;
+	/*padding-left: 10px;*/
+	float: left;
+}
+

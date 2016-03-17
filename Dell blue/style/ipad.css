@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.top{
+	width: 949px;
+	height: 80px;
+	margin: 0 auto;
+}
+.logo{
+	width: 179px;
+	height: 80px;
+	float: left;
+}
+nav{
+	width: 770px;
+	height: 80px;
+	float: left;
+}
+nav li{
+	font-size: 17px;
+	font-family: Tahoma;
+	list-style: none;
+	float: left;
+	margin-left: 31px;
+	padding-top: 32px;
+}
+nav li.home{
+	margin-left: 42px;
+}
+nav li a{
+	text-decoration: none;
+	color: #323232;
+}
+nav li a:hover{
+	font-weight: bold;
+	text-decoration: underline;
+}
+@font-face{
+	font-family: chunkfive;
+	src:url(../font/Chunkfive.otf);
+}
+.banner{
+	width: 949px;
+	height: 641px;
+	margin: 0 auto;
+}
+.left{
+	width: 550px;
+	height: 641px;
+	float: left;
+}
+h1{
+	font-family: chunkfive;
+	padding-top: 60px;
+	font-size: 48px;
+	font-weight: 50;
+}
+p{
+	font-family: Times New Roman;
+	font-size: 18px;
+	margin-top: 24px;
+}
+.left img{
+	margin-top: 111px;
+}
+.left img.l{
+	padding-left: 10px;
+}
+.left img.r{
+	margin-left: 22px;
+}
+.right{
+	width: 399px;
+	height: 641px;
+	float: left;
+}
+.right img{
+	float: right;
+	padding-right: 41px;
+}
+.main{
+	background-image: url(../images/main-bg_07.png);
+	height: 389px;
+}
+.main-inner{
+	width: 949px;
+	height: 389px;
+	margin:0 auto;
+	color:#ececec;
+}
+.m{
+	width: 610px;
+	height: 389px;
+}
+.m h2{
+	padding-left: 10px;
+	padding-top: 45px;
+	font-size: 24px;
+	font-family: chunkfive;
+}
+.m p{
+	padding-top: 34px;
+	font-size: 16px;
+}
+.n{
+	height: 389px;
+	width: 339px;
+	float: left;
+
+}
+.n h2{
+	padding-top: 45px;
+	font-size: 24px;
+	font-family: chunkfive;
+}
+.n p{
+	padding-top: 32px;
+	font-size: 16px;
+	color: #000;
+	
+}
+
+footer{
+	clear: both;
+	height: 105px;
+	background-image: url(../images/f-bg_10.png);
+}
+.f-inner{
+	width: 949px;
+	height: 105px;
+	color:#ececec;
+	margin: 0 auto;
+}
+.f-inner p{
+	width: 236px;
+	padding-left: 10px;
+	padding-top: 37px;
+	font-family: arial;
+	font-size: 14px;
+}
+.f-inner ul{
+	width: 515px;
+	float: right;
+	padding-left: 10px;
+}
+.f-inner li{
+	list-style: none;
+	float: left;
+	color:#ececec;
+	font-family: arial;
+	font-size: 14px;
+	padding-left: 16px;
+}

@@ -1,0 +1,142 @@
+*{margin: 0;padding: 0;}
+.diyihang{
+	width: 966px;height: 31px;
+	padding-top: 10px;
+	margin:0 auto;
+}
+.tel{float: left;}
+.login{
+	float: right;
+	color:#0085c3;
+}
+.top{
+	height: 70px;
+	background-color: #0085c3;
+}
+.top-inner{
+	width: 966px;
+	height: 70px;
+	margin:0 auto;
+}
+.logo img{
+	float: left;
+	padding-top: 11px;
+}
+nav li{
+	float: left;
+	color:#fff;
+	padding-top: 30px;
+	padding-left: 36px;
+	list-style: none;
+	font-weight: bold;
+	/*font-size: 14px;*/
+
+}
+.search{
+	float: right;
+	padding-top: 15px;
+}
+.search input{
+	height: 41px;
+	width: 338px;
+}
+.banner{
+	width: 930px;
+	height: 380px;
+	padding-top: 20px;
+	margin:0 auto;
+}
+.maintop{
+	width: 966px;
+	height: 325px;
+	
+	margin: 0 auto;
+}
+.maintop div{
+	float: left;
+	margin-top: 32px;
+	width: 300px;height: 284px;
+
+}
+h3{padding-left: 21px;}
+.maintop div ul{
+	padding-left: 24px;
+	list-style-position: inside;
+	list-style-image: url('../images/sanjiao_08.jpg');
+	font-size: 10px;
+	padding-top: 12px;
+}
+.maintop div.l{
+	border-left: 1px solid #ccc;
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-left: 18px;
+}
+.maintop div.c{
+	border-right: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-left: 14px;
+}
+.maintop div.r{
+	border-left: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+	margin-left: 15px;
+}
+.mainbot{
+	height: 193px;
+	background-color: #0085c3;
+	
+}
+.mainbot-inner{
+	width: 966px;
+	height: 193px;
+	margin:0 auto;
+	color: #fff;
+}
+.mainbot-inner li{
+	list-style: none;
+}
+.mainbot-inner div{
+	width: 193px;
+	height: 193px;
+	float: left;
+	padding-top: 33px;
+}
+footer{
+	height: 147px;
+	background-color: #0085c3;
+}
+.footer-inner{
+	width: 966px;
+	height: 147px;
+	margin:0 auto;
+	color:#fff;
+}
+.footertop ul{
+	width: 700px;margin: 0 auto;
+	text-align: center;
+}
+.footertop li{
+	float: left;
+	list-style: none;
+	margin-left: 17px;
+}
+.footerbot{
+	background-image: url(../images/f-sanjiao_07.png);
+	background-repeat: no-repeat;
+	background-position: 55px 0;
+}
+.footerbot ul{
+
+	width: 200px;
+	text-align: center;
+}
+.footerbot li{
+
+	margin-left: 54px;
+	float: left;
+	list-style: none;
+
+}
+
+
