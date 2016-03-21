@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.b-box{
+			width: 60px;
+			height: 60px;
+			overflow: hidden;
+		}
+		/*.c-box{
+			width: 60px;
+			height: 60px;
+			background-color: #ccc;
+		}*/
+		
+		a,span{
+			display: block;
+			width: 60px;
+			height: 60px;
+		}
+		a{
+			background-color: #ccc;
+		}
+		span{
+			background-color: pink;
+		}
+		/*.d-box{
+			width: 60px;
+			height: 60px;
+			background-color: #f77;
+		}*/
+	</style>
+</head>
+<body>
+	<div class="b-box">
+		<span>home</span>
+		<a href="">home</a>
+		<!-- <div class="c-box">home</div> -->
+		<!-- <div class="d-box">home</div> -->
+	</div>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+		$(".b-box").mouseenter(function(){
+			$("span").animate({"margin-top":-60},2000)
+		})
+		$(".b-box").mouseleave(function(){
+			$("span").animate({"margin-top":0},2000)
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.box{
+			width: 300px;
+			height: 150px;
+			border:1px solid red;
+			overflow: hidden;
+			margin-left: 350px;
+		}
+		ul{
+			width: 900px;
+
+		}
+		li{
+			list-style: none;
+			float: left;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<ul>
+			<li><img src="../images/banner-pic1.jpg" alt="">
+			</li>
+			<li><img src="../images/banner-pic2.jpg" alt="">
+			</li>
+			<li><img src="../images/banner-pic3.jpg" alt="">
+			</li>
+		</ul>
+		
+		
+		
+
+	</div>
+	<input type="button" value="1" class="f">
+	<input type="button" value="2" class="s">
+	<input type="button" value="3" class="t">
+	
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+		$(".f").mouseenter(function(){
+			$("img").animate({
+				"margin-right":300
+			},2000)
+		})
+		$(".s").mouseenter(function(){
+			$("img").animate({
+				"margin-right":300
+			},2000)
+		})
+		$(".t").mouseenter(function(){
+			$("img").animate({
+				"margin-right":300
+			},2000)
+		})
+	</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+		.nav li{
+			float: left;
+			list-style: none;
+		}
+		.nav a{
+			display: block;
+			width: 100px;
+			height: 50px;
+			border-color: #ccc;
+			border:1px solid red;
+			line-height: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+
+		.list{
+			clear: both;
+		}
+		
+		.list li{
+			list-style: none;
+			border:1px solid black;
+			width: 500px;
+			height: 100px;
+			display: none;
+		}
+	</style>
+</head>
+<body>
+	<ul class="nav">
+		<li><a href="" class="f">标签一</a></li>
+		<li><a href="" class="s">标签二</a></li>
+		<li><a href="" class="t">标签三</a></li>
+		<li><a href="" class="u">标签四</a></li>
+	</ul>
+	<ul class="list">
+		<li>1</li>
+		<li>2</li>
+		<li>3</li>
+		<li>4</li>
+	</ul>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+		$(".nav li a").click(function(){
+			// alert(skd)
+			var index = $(this).index()
+			// var x = index + 1
+			$(".list li").eq(index).css("display","block").siblings().css("display","none")
+		})
+	</script>
+</body>
+</html>

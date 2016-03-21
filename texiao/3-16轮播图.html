@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style>
+	*{
+		margin: 0;
+		padding: 0;
+	}
+		.box{
+			width: 330px;
+			height: 200px;
+			border:1px solid red;
+			overflow: hidden;
+		}
+		#list{
+			width: 1000px;
+		}
+		li{
+			list-style: none;
+			float: left;
+		}
+		.n{
+			width: 20px;
+			height: 20px;
+			border:1px solid red;
+			line-height: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div class="box">
+	
+		<ul id="list">
+			<li class="box1"><img src="../images/banner-pic1.jpg" alt=""></li>
+			<li class="box2"><img src="../images/banner-pic2.jpg" alt=""></li>
+			<li class="box3"><img src="../images/banner-pic3.jpg" alt=""></li>
+		</ul>
+	</div>
+	<ul id="list-num">
+		<li class="n">1</li>
+		<li class="n">2</li>
+		<li class="n">3</li>
+	</ul>
+	<script src="jquery-1.11.1.js"></script>
+	<script>
+		$(".n").click(function(){
+			var index = $(this).index();
+			var marLeft = -330 * index;
+			$("#list").animate({"margin-left":marLeft},2000)
+		})
+	</script>
+</body>
+</html>
